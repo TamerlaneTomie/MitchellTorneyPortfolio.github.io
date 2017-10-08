@@ -142,18 +142,11 @@ body, html{
 }
 
 
-.bgimg-1 {
-height: 98%;
-  position: fixed 50%;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  
-}
+
 .bgimg-1 {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/background2.jpg);
   height: 85%;
-  background-position: 0 25%;
+  background-position: 125% 25%;
   background-size: 100%;
   background-attachment: fixed;
   background-repeat: no-repeat;
@@ -177,7 +170,7 @@ background-position: 50% 0%;
 .caption {
   position: relative;
   left: 0;
-  top: 50%;
+  top: 68%;
   width: 100%;
   text-align: center;
   color: #000;
