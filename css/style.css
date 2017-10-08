@@ -3,13 +3,21 @@
 /**  Basic Page CSS **/
 
 body{
-	
+	-webkit-animation-delay: 0.1s;
+    -webkit-animation-name: fontfix;
+    -webkit-animation-duration: 0.1s;
+    -webkit-animation-iteration-count: 1;
+    -webkit-animation-timing-function: linear;
+
   font-family: 'Roboto Slab', sans-serif !important;
   font-weight: 300;
   font-size: 2em;
   position: relative;
 }
-
+@-webkit-keyframes fontfix {
+    from { opacity: 1; }
+    to   { opacity: 1; }
+}
 h1, h2, h3, h4, h5, h6 {
   font-family: 'Open Sans', sans-serif !important;
   font-weight: 100;
