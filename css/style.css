@@ -1,4 +1,4 @@
-@import url(http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800|Roboto+Slab:400,100,300,700);
+@import (css) url (http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800|Roboto+Slab:400,100,300,700);
 
 /**  Basic Page CSS **/
 body{
@@ -233,6 +233,16 @@ h3 {
     margin-left: auto;
     margin-right: auto;
   }
+@media only screen
+and (max-width: 768px) {
+#careerpath h2 {
+  font-size:20px;
+ width: 80%;
+ height: 20px;
+  }
+
+	
+}
 
 .circular img {
   display: block;
