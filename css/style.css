@@ -65,6 +65,8 @@ header .navbar-brand h1 {
   padding-left: 105px;
 }
 
+
+
 header .navbar-brand span.subhead {
   display: block;
   font-family: "Roboto Slab", serif;
@@ -137,12 +139,28 @@ body, html{
   
 }
 .bgimg-1 {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/background.jpg);
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../images/background2.jpg);
   height: 65%;
-  background-position: 0 150%;
+  background-position: 0 25%;
+  background-size: 125%;
   background-attachment: fixed;
   background-repeat: no-repeat;
 }
+@media only screen
+and (max-width: 768px) {
+  .bgimg-1 {
+    background-size: 150%;
+  }
+}
+@media only screen
+and (max-width: 558px) {
+  .bgimg-1 {
+background-position: 50% 8%;
+    background-size: 225%;
+
+  }
+}
+
 
 .caption {
   position: relative;
