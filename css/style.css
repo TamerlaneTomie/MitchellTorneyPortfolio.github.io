@@ -64,7 +64,14 @@ header .navbar-brand h1 {
   font-weight: 400;
   padding-left: 105px;
 }
-
+@media only screen
+and (max-width: 768px) {
+header .navbar-brand h1 {
+  font-size: 1em;
+  padding-left: 0px;
+}
+	
+}
 
 
 header .navbar-brand span.subhead {
