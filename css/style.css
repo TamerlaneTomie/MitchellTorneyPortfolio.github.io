@@ -155,7 +155,7 @@ and (max-width: 768px) {
 @media only screen
 and (max-width: 558px) {
   .bgimg-1 {
-background-position: 50% 8%;
+background-position: 50% 0%;
     background-size: 225%;
 
   }
